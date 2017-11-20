@@ -270,3 +270,42 @@ input[type=submit] {
     width: 45%;
   }
   }
+  @media screen and (max-width: 640px) {
+    .container {
+      max-width: 640px;
+    }
+    #logo {
+      width: 100%;
+    }
+    nav {
+      width: 100%;
+      float: left;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      
+      
+    }
+    nav a {
+      margin: 0;
+      width: 30%;
+    }
+    #main-container {
+      padding-top: 165px;
+      margin: 0 20px 20px 20px;
+      
+    }
+    .sidebar {
+      float: left;
+      max-width: unset;
+    }
+    .main-section {
+      max-width: unset;
+    }
+    .auth-image {
+      width: 100%;
+    }
+    .work {
+      margin: 20px 20px 20px 0;
+      width: 100%;
+    }
+    }
