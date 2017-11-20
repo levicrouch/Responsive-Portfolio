@@ -238,10 +238,7 @@ input[type=submit] {
   border: 0 none;
 }
 
-/* @media screen and (max-width: 768px) {
- /* .navbar navbar-default {
-    max-width: 100%;
-  } 
+@media screen and (max-width: 980px) {
   .sidebar {
     float: left;
     max-width: unset;
@@ -257,7 +254,7 @@ input[type=submit] {
     width: 45%;
   }
 }
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 768px) {
   .sidebar {
     float: left;
     max-width: unset;
@@ -272,4 +269,4 @@ input[type=submit] {
     margin: 20px 20px 20px 0;
     width: 45%;
   }
-  } */
+  }
