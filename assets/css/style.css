@@ -317,15 +317,21 @@ input[type=submit] {
   }
   }
   @media screen and (max-width: 640px) {
-    .container {
+    #masthead {
       max-width: 640px;
+  
+    }
+    .container {
+      margin-left: 0;
     }
     #logo {
       width: 100%;
+      margin-left: 0;
     }
     nav {
       width: 100%;
       float: left;
+      margin-right: 0;
       margin-top: 10px;
       margin-bottom: 10px;     
     }
